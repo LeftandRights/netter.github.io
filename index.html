@@ -1,1 +1,1 @@
-for i in {1..500}; do curl --insecure -X POST -d "Hello World" "https://195.62.33.156/growtopia/server_data.php"; done
+for i in {1..500}; do curl -k --max-time 1 "https://195.62.33.156/growtopia/server_data.php"; done
